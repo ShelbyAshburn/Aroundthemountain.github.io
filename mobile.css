@@ -1,0 +1,56 @@
+/*--This is more of a 'coming soon' --*/
+
+@media all and (max-width: 500px){
+  .icons{
+    display: table-footer-group;
+    position: fixed;
+    padding-bottom:2rem;
+    padding-left:2rem;
+    
+  }
+  p{
+    font-size: 1.5rem;
+  }
+/*main page*/
+  
+
+  #tagline{
+    padding-top: 5px;
+    position:relative;
+  }
+  .header{
+    background-color: black;
+    padding-bottom:40px;
+  }
+
+
+}
+
+/*--very small screens--*/
+@media all and (max-width: 320px){
+  .icons{
+    display: table-footer-group;
+    position: fixed,center;
+    font-size: 40px;
+    padding-bottom:2rem;
+    padding-left:1rem;
+    
+  }
+  p{
+    font-size: 1.5em;
+  }
+/*main page*/
+  
+
+  #tagline{
+    padding-top: 5px;
+    position:relative;
+  }
+  .header{
+    background-color: black;
+    padding-bottom:40px;
+  }
+  
+
+
+}
