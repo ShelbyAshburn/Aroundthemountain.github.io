@@ -1,0 +1,50 @@
+/*--This is under constant construction. --*/
+
+@media all and (max-width: 1025px){
+  body{
+    background-image:url("images/pexels-pixabay-m.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: fit-content;
+  }
+  .header{
+    font-size: 3em;
+    text-align: center;
+  }
+  .tagline{
+    font-size: 1em;
+    text-align: center;
+  }
+  p{
+    font-size: .5em;
+    text-align: center;
+  }
+  .mountain{
+    display: none;
+  }
+  .shadowEffect{
+    display: none;
+  }
+  .icons{
+    position: fixed;
+
+  }
+  #boxLink{
+    display: flex;
+    flex-direction: column;
+  }
+}
+  
+
+
+ 
+
+
+@media all and (max-width: 400px){
+  
+ 
+  
+
+
+}
