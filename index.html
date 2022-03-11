@@ -1,6 +1,6 @@
 <!--Personal website and "Hello World" .-->
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="mobile.css" >
     <script src="main.js" async></script>
-    <title>aroundthemountain.io</title>
+    <title>aroundthemountain</title>
   </head>
   <body class="main">
     <img class="mountain"  src="images/pexels-pixabay-s.jpg">
@@ -43,6 +43,15 @@
         <a class="" href="https://github.com/TheShelb/https---github.com-TheShelb-Digital_Ashburn" style="text-decoration: none;" target="_blank">My Github</a>
       </div> 
     </div>
+    <script>
+      if (self == top){
+        document.documentElement.style.display = 'black';
+        }
+      else{
+        top.location = self.location;
+        }
+    </script> 
+    
   </body>
   <footer>
     
