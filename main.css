@@ -10,17 +10,6 @@ body {
   
 }
 
-p{
-  color:rgba(242, 242, 242, 0.7);
-  display: block;
-  margin: auto;
-  padding: 10px;
-  font-size: 2.5em;
-  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
-  text-align: center;
-  
-}
-
 .projects{
   color:rgba(242, 242, 242, 0.7);
   display: block;
@@ -31,6 +20,7 @@ p{
   text-align: center;
   
 }
+/*color effects for the bottom page links*/
 a:link{
   color:rgb(34, 96, 179);
 }
@@ -61,7 +51,7 @@ a:hover{
   background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.0)50%,rgba(0, 0, 0,1.0));
   
 }
-/*-----arounthemountain.tech-----*/
+/*-----arounthemountain-----*/
 .header{
   display: block;
   background-color: transparent ;

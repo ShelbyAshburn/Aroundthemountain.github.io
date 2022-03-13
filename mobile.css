@@ -1,6 +1,6 @@
 /*--This is under constant construction. --*/
 
-@media all and (max-width: 1025px){
+@media all and (max-width: 820px){
   body{
     background-image:url("images/pexels-pixabay-m.jpg");
     background-size: cover;
@@ -9,28 +9,35 @@
     max-height: fit-content;
   }
   .header{
-    font-size: 3em;
+    display: block;
+    position:sticky ;
+    font-size: 3.0em;
     text-align: center;
+    padding-top: 2em;
   }
   .tagline{
-    font-size: 1em;
+    display: block;
+    position: relative;
+    font-size: 2.0rem;
     text-align: center;
+    padding-bottom: 10em;
   }
-  p{
-    font-size: .5em;
+  .projects{
+    display: block;
+    position: relative;
+    font-size: 2.0rem;
     text-align: center;
   }
   .mountain{
     display: none;
   }
-  .shadowEffect{
-    display: none;
-  }
   .icons{
     position: fixed;
+    bottom: 20px;
 
   }
   #boxLink{
+    position: relative;
     display: flex;
     flex-direction: column;
   }
