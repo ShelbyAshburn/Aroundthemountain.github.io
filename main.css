@@ -1,12 +1,9 @@
 /*----------
  
 ----------*/
-
-/*----------global styles----------*/
 body {
   background-color:#000;
   text-align: center;
-  font-family: sans-serif;
   
 }
 
@@ -56,6 +53,7 @@ a:hover{
   display: block;
   background-color: transparent ;
   position:absolute;
+  -webkit-font-smoothing: antialiased;
   top: 100px; left: 21%;
   block-size: 0.7em;
   text-align: center;
@@ -69,6 +67,7 @@ a:hover{
 .tagline{
   display: block;
   position:absolute;
+  -webkit-font-smoothing: antialiased;
   top:170px; left:35%;
   writing-mode: horizontal-tb;
   block-size: auto;
@@ -91,7 +90,7 @@ a:hover{
   background-color:rgba(28, 28, 29, 0.3);
   display: inline-flex;
   flex-direction: row;
-  font-size:smaller;
+  font-size:small;
   border-style: inset;
   border-radius: 4em;
   border-color: rgb(32, 24, 23);
