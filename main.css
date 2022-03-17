@@ -1,12 +1,13 @@
 /*----------
  
 ----------*/
+
 body {
   background-color:#000;
-  text-align: center;
+  font-size: 100%;
   
 }
-
+/*
 .projects{
   color:rgba(242, 242, 242, 0.7);
   display: block;
@@ -17,7 +18,10 @@ body {
   text-align: center;
   
 }
+*/
 /*color effects for the bottom page links*/
+/*
+
 a:link{
   color:rgb(34, 96, 179);
 }
@@ -27,7 +31,8 @@ a:visited{
 a:hover{
   color:rgb(105, 198, 241);
 }
-/*----------index landing page--------*/
+/*----------background--------*/
+
 .mountain{
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,32 +54,35 @@ a:hover{
   
 }
 /*-----arounthemountain-----*/
+
 .header{
-  display: block;
+  display: inline;
   background-color: transparent ;
-  position:absolute;
+  position: absolute;
+  top: 4rem; left: 10rem; right: 10rem;
   -webkit-font-smoothing: antialiased;
-  top: 100px; left: 21%;
-  block-size: 0.7em;
+  padding: auto;
+  block-size: auto;
   text-align: center;
-  margin-top: 0px;
+  margin: 10px;
   text-shadow: 2px 4px rgb(178, 208, 245);
-  font-size: 6em;
+  font-size: 6.0rem;
   color: rgba(242, 242, 242, 0.7);
   font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 }
 /*-------digital portfolio-------*/
+
 .tagline{
-  display: block;
+  display: inline;
   position:absolute;
+  top: 11rem; right: 20rem; left: 20rem;
   -webkit-font-smoothing: antialiased;
-  top:170px; left:35%;
+  padding: auto;
+  margin: 10px;
   writing-mode: horizontal-tb;
-  block-size: auto;
   background-color:transparent;
   text-align:center;
-  font-size: 2.0em;
-  padding: 0px;
+  font-size: 2.0rem;
   color: rgba(250, 249, 253, 0.8);
   font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 
@@ -82,7 +90,7 @@ a:hover{
 
 
 /*----------projects----------*/
-
+/*
 #link{
   color:rgba(242, 242, 242,0.6);
 }
@@ -103,3 +111,4 @@ a:hover{
   font-size: 2.5em;
   size: 20em;
 }
+*/

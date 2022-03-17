@@ -1,5 +1,47 @@
 /*--This is under constant construction. --*/
+@media all and (max-width: 1250px){
+  .header{
+    font-size: 4.5em;
+    position:absolute;
+    top: 3rem; right: 10rem; left: 10rem;
+  }
 
+  .tagline{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 8rem; right: 10rem; left: 12rem;
+  }
+}
+@media all and (max-width: 1020px){
+  .header{
+    font-size: 4.0em;
+    position:absolute;
+    top: 3rem; right: 10rem; left: 10rem;
+  }
+  .tagline{
+    font-size: 1.75rem;
+    position: absolute;
+    top: 7rem; right: 10rem; left: 10rem;
+  }
+}
+
+@media all and (max-width: 905px){
+  .header{
+    font-size: 3.0rem;
+    position: absolute;
+    top: 2rem; right: 10rem; left: 10rem;
+  }
+
+  .tagline{
+    font-size: 1.55rem;
+    position: absolute;
+    top: 6rem; right: 10rem; left: 10rem;
+  }
+
+
+}
+
+/*
 @media all and (max-width: 820px){
   body{
     background-image:url("images/pexels-pixabay-m.jpg");
@@ -8,20 +50,8 @@
     max-width: 100%;
     max-height: fit-content;
   }
-  .header{
-    display: block;
-    position:sticky ;
-    font-size: 3.0em;
-    text-align: center;
-    padding-top: 2em;
-  }
-  .tagline{
-    display: block;
-    position: relative;
-    font-size: 2.0rem;
-    text-align: center;
-    padding-bottom: 10em;
-  }
+  
+/* 
   .projects{
     display: block;
     position: relative;
@@ -55,3 +85,4 @@
 
 
 }
+*/
