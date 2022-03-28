@@ -6,7 +6,7 @@
     top: 3rem; right: 10rem; left: 10rem;
   }
 
-  .tagline{
+  .sub-head{
     font-size: 1.5rem;
     position: absolute;
     top: 8rem; right: 10rem; left: 12rem;
@@ -18,7 +18,7 @@
     position:absolute;
     top: 3rem; right: 10rem; left: 10rem;
   }
-  .tagline{
+  .sub-head{
     font-size: 1.75rem;
     position: absolute;
     top: 7rem; right: 10rem; left: 10rem;
@@ -32,7 +32,7 @@
     top: 2rem; right: 10rem; left: 10rem;
   }
 
-  .tagline{
+  .sub-head{
     font-size: 1.55rem;
     position: absolute;
     top: 6rem; right: 10rem; left: 10rem;

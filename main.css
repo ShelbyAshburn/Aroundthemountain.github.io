@@ -1,15 +1,17 @@
 /*----------
  
 ----------*/
-
+:root{
+  --text-color:rgba(242, 242, 242, 0.7) ;
+}
 body {
   background-color:#000;
   font-size: 100%;
   
 }
-/*
+
 .projects{
-  color:rgba(242, 242, 242, 0.7);
+  color: var(--text-color);
   display: block;
   margin: auto;
   padding: 10px;
@@ -18,9 +20,8 @@ body {
   text-align: center;
   
 }
-*/
+
 /*color effects for the bottom page links*/
-/*
 
 a:link{
   color:rgb(34, 96, 179);
@@ -41,7 +42,7 @@ a:hover{
   
 }
 
-.shadowEffect::after{
+.shadow::after{
   content:'';
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,12 +68,12 @@ a:hover{
   margin: 10px;
   text-shadow: 2px 4px rgb(178, 208, 245);
   font-size: 6.0rem;
-  color: rgba(242, 242, 242, 0.7);
+  color: var(--text-color);
   font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 }
 /*-------digital portfolio-------*/
 
-.tagline{
+.sub-head{
   display: inline;
   position:absolute;
   top: 11rem; right: 20rem; left: 20rem;
@@ -83,32 +84,36 @@ a:hover{
   background-color:transparent;
   text-align:center;
   font-size: 2.0rem;
-  color: rgba(250, 249, 253, 0.8);
+  color: var(--text-color);
   font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
 
 }
 
 
 /*----------projects----------*/
-/*
+
 #link{
-  color:rgba(242, 242, 242,0.6);
+  color: var(--text-color);
+}
+#work-container{
+  display: inline-flex;
 }
 #boxLink{
   background-color:rgba(28, 28, 29, 0.3);
-  display: inline-flex;
   flex-direction: row;
-  font-size:small;
+  font-size: 1.8rem;
   border-style: inset;
-  border-radius: 4em;
+  border-radius: 3.5em;
   border-color: rgb(32, 24, 23);
   padding: 2em;
   margin: 2em;
   
 }
 
-.icons{
+#link-container{
+  display: flex;
+  justify-content: center;
   font-size: 2.5em;
   size: 20em;
+
 }
-*/
