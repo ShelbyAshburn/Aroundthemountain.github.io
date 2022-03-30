@@ -3,9 +3,10 @@
 ----------*/
 :root{
   --text-color:rgba(242, 242, 242, 0.7) ;
+  --background-color: black;
 }
 body {
-  background-color:#000;
+  background-color: var(--background-color);
   font-size: 100%;
   
 }
@@ -34,15 +35,14 @@ a:hover{
 }
 /*----------background--------*/
 
-.mountain{
+.img{
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 960px;
-  
+  max-width: 100%; 
 }
 
-.shadow::after{
+/*--broken--*/
+#shadow::after{
   content:'';
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,6 +97,7 @@ a:hover{
 }
 #work-container{
   display: inline-flex;
+
 }
 #boxLink{
   background-color:rgba(28, 28, 29, 0.3);
