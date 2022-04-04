@@ -1,5 +1,15 @@
-/*--This is under constant construction. --*/
-@media all and (max-width: 1250px){
+/*--No Bootstrap. 
+desktop: 1200px
+laptop: 1024px
+tablet: 768px
+phone: 480px--*/
+
+@media all and (max-width: 1215px){
+  .img{
+    display: block;
+    width: fit-content;
+  }
+  
   .header{
     font-size: 4.5em;
     position:absolute;
@@ -12,7 +22,16 @@
     top: 8rem; right: 10rem; left: 12rem;
   }
 }
-@media all and (max-width: 1020px){
+#work-container{
+  display: inline-flex;
+}
+
+
+@media all and (max-width: 1024px){
+  .img{
+    width: 100%;
+
+  }
   .header{
     font-size: 4.0em;
     position:absolute;
@@ -25,7 +44,7 @@
   }
 }
 
-@media all and (max-width: 905px){
+@media all and (max-width: 768px){
   .header{
     font-size: 3.0rem;
     position: absolute;
@@ -42,7 +61,7 @@
 }
 
 /*
-@media all and (max-width: 820px){
+@media all and (max-width: 480px){
   body{
     background-image:url("images/pexels-pixabay-m.jpg");
     background-size: cover;
@@ -58,7 +77,7 @@
     font-size: 2.0rem;
     text-align: center;
   }
-  .mountain{
+  .img{
     display: none;
   }
   .icons{
@@ -72,17 +91,5 @@
     flex-direction: column;
   }
 }
-  
 
-
- 
-
-
-@media all and (max-width: 400px){
-  
- 
-  
-
-
-}
 */
