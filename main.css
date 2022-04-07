@@ -13,12 +13,12 @@ body {
   
 }
 
-.projects{
+#projects{
   color: var(--text-color);
   display: block;
   margin: auto;
-  padding: 10px;
-  font-size: 2.5em;
+  padding: 1px;
+  font-size: 3.0em;
   font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
   text-align: center;
   
@@ -72,7 +72,7 @@ a:hover{
 }
 /*-------digital portfolio-------*/
 
-.sub-head{
+#sub-head{
   display: inline;
   position:absolute;
   top: 11rem; right: 20rem; left: 20rem;
@@ -96,6 +96,7 @@ a:hover{
 }
 #work-container{
   display: inline-flex;
+  padding: 1em;
 
 }
 
@@ -106,34 +107,42 @@ a:hover{
   border-style: inset;
   border-radius: 3.5em;
   border-color: rgb(36, 58, 105);
-  padding: 2em;
+  padding: 1em;
   margin: 1em;
   animation-name: colorful;
   animation-iteration-count: infinite;
   animation-duration: 4s;
 }
  #box-link:hover{
-   transform: scale(1.1);
+   transform: scale(1.05);
  }
 
 @keyframes colorful{
   0%{
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(10, 10, 10);
   }
   50%{
-    background-color: rgb(23, 23, 26);
+    background-color: rgb(35, 35, 35);
   }
   100%{
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(10, 10, 10);
   }
 }
 
 #lyrics{
   color: var(--text-color);
+  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
+#about{
+  color: var(--text-color);
+  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5%;
+}
 /*--My Github--*/
 #link-container{
   display: flex;

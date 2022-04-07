@@ -16,7 +16,7 @@ phone: 480px--*/
     top: 3rem; right: 10rem; left: 10rem;
   }
 
-  .sub-head{
+  #sub-head{
     font-size: 1.5rem;
     position: absolute;
     top: 8rem; right: 10rem; left: 12rem;
@@ -37,7 +37,7 @@ phone: 480px--*/
     position:absolute;
     top: 3rem; right: 10rem; left: 10rem;
   }
-  .sub-head{
+  #sub-head{
     font-size: 1.75rem;
     position: absolute;
     top: 7rem; right: 10rem; left: 10rem;
@@ -51,7 +51,7 @@ phone: 480px--*/
     top: 2rem; right: 10rem; left: 10rem;
   }
 
-  .sub-head{
+  #sub-head{
     font-size: 1.55rem;
     position: absolute;
     top: 6rem; right: 10rem; left: 10rem;
@@ -71,7 +71,7 @@ phone: 480px--*/
   }
   
 /* 
-  .projects{
+  #projects{
     display: block;
     position: relative;
     font-size: 2.0rem;
