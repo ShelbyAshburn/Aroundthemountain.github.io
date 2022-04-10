@@ -3,7 +3,7 @@
 ----------*/
 :root{
   --text-color:rgba(242, 242, 242, 0.8) ;
-  
+  --font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
 }
 body {
   background: linear-gradient(340deg, rgb(10, 10, 10) 30%, rgba(1, 90, 150, 0.952));
@@ -14,12 +14,13 @@ body {
 }
 
 #projects{
+  outline:red solid 1px;
   color: var(--text-color);
   display: block;
   margin: auto;
   padding: 1px;
   font-size: 3.0em;
-  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  font-family: var(--font-family);
   text-align: center;
   
 }
@@ -38,6 +39,7 @@ a:hover{
 /*----------background--------*/
 
 .img{
+  outline: red solid 1px;
   display: block;
   margin: auto;
   border-radius: 50%;
@@ -56,6 +58,7 @@ a:hover{
 /*-----arounthemountain-----*/
 
 .header{
+  outline: red solid 1px;
   display: inline;
   background-color: transparent ;
   position: absolute;
@@ -68,11 +71,12 @@ a:hover{
   text-shadow: 2px 4px rgb(178, 208, 245);
   font-size: 6.0rem;
   color: var(--text-color);
-  font-family: "Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
+  font-family: var(--font-family) ;
 }
 /*-------digital portfolio-------*/
 
 #sub-head{
+  outline: red solid 1px;
   display: inline;
   position:absolute;
   top: 11rem; right: 20rem; left: 20rem;
@@ -84,7 +88,7 @@ a:hover{
   text-align:center;
   font-size: 2.0rem;
   color: var(--text-color);
-  font-family:"Helvetica","Lucida Handwriting" ,"Verdana", "sans-serif" ;
+  font-family: var(--font-family) ;
 
 }
 
@@ -95,24 +99,30 @@ a:hover{
   color: var(--text-color);
 }
 #work-container{
+  display: inline-flex;
+  outline: red solid 1px;
+  box-sizing: border-box;
+  
   
   
 }
 
-#box-link{
+#work-link{
+  outline: red solid 1px;
   background-color: #000;
-  flex-direction: row;
   font-size: 1.8rem;
+  color: var(--text-color);
+  font-family: var(--font-family);
   border-style: inset;
   border-radius: 3.5em;
   border-color: rgb(36, 58, 105);
-  padding: 1em;
   margin: 1em;
+  padding: 1em;
   animation-name: colorful;
   animation-iteration-count: infinite;
   animation-duration: 4s;
 }
- #box-link:hover{
+ #work-link:hover{
    transform: scale(1.05);
  }
 
@@ -129,30 +139,40 @@ a:hover{
 }
 
 #lyrics{
+  outline: red solid 1px;
+  display: block;
+  position: relative;
+  box-sizing: content-box;
   color: var(--text-color);
-  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  font-family: var(--font-family);
   text-align: center;
   font-size: 2.5rem;
+  margin:auto;
+  padding: auto;
 }
 
 #about{
+  outline: red solid 1px;
   color: var(--text-color);
-  font-family:"Helvetica", "Times New Roman", "Times", "sans-serif";
+  font-family: var(--font-family);
   text-align: center;
   font-size: 1.5rem;
   padding: 5%;
 }
 /*--My Github--*/
 #link-container{
-  display: flex;
+  outline: red solid 1px;
+  box-sizing: content-box;
+  display: block;
+  padding: auto;
+  margin:auto;
   text-align: center;
-  justify-content: center;
   font-size: 2.5em;
-  size: 20em;
+  width: 50%;
 
 }
 #link-container:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #copy{
