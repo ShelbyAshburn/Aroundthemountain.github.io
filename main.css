@@ -6,7 +6,7 @@
   
 }
 body {
-  background: linear-gradient(340deg, rgb(10, 10, 10) 30%, rgba(1, 104, 173, 0.952));
+  background: linear-gradient(340deg, rgb(10, 10, 10) 30%, rgba(1, 90, 150, 0.952));
   background-size: auto;
   background-repeat: no-repeat;
   font-size: 100%;
@@ -95,9 +95,8 @@ a:hover{
   color: var(--text-color);
 }
 #work-container{
-  display: inline-flex;
-  padding: 1em;
-
+  
+  
 }
 
 #box-link{
@@ -146,6 +145,7 @@ a:hover{
 /*--My Github--*/
 #link-container{
   display: flex;
+  text-align: center;
   justify-content: center;
   font-size: 2.5em;
   size: 20em;
@@ -153,4 +153,8 @@ a:hover{
 }
 #link-container:hover{
   transform: scale(1.1);
+}
+
+#copy{
+  color: var(--text-color);
 }
