@@ -1,4 +1,4 @@
-/*--No Bootstrap. 
+/*--From Bootstrap. 
 desktop: 1200px
 laptop: 1024px
 tablet: 768px
@@ -13,18 +13,20 @@ phone: 480px--*/
   .header{
     font-size: 4.5em;
     position:absolute;
-    top: 3rem; right: 10rem; left: 10rem;
+    margin-left:auto;
+    margin-right: auto;
+    top: 3rem;
   }
 
   #sub-head{
     font-size: 1.5rem;
     position: absolute;
-    top: 8rem; right: 10rem; left: 12rem;
+    margin-left:auto;
+    margin-right: auto;
+    top: 8rem;
   }
 }
-#work-container{
-  
-}
+
 
 
 @media all and (max-width: 1024px){
@@ -33,7 +35,7 @@ phone: 480px--*/
 
   }
   .header{
-    font-size: 4.0em;
+    font-size: 3.0em;
     position:absolute;
     top: 3rem; right: 10rem; left: 10rem;
   }
@@ -46,21 +48,31 @@ phone: 480px--*/
 
 @media all and (max-width: 768px){
   .header{
-    font-size: 3.0rem;
+    display: flex;
+    font-size: 2.5rem;
     position: absolute;
-    top: 2rem; right: 10rem; left: 10rem;
+    margin-left:auto;
+    margin-right: auto;
+    top: 2rem; 
   }
 
   #sub-head{
-    font-size: 1.55rem;
+    font-size: 1.0rem;
     position: absolute;
-    top: 6rem; right: 10rem; left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6rem; 
   }
-
-
+  #work-container{
+    width: auto;
+  }
+  #work-link{
+    font-size: 1.3rem;
+    width: auto;
+  }
 }
 
-/*
+
 @media all and (max-width: 480px){
   body{
     background-image:url("images/pexels-pixabay-m.jpg");
@@ -69,17 +81,58 @@ phone: 480px--*/
     max-width: 100%;
     max-height: fit-content;
   }
+  .img{
+    display: none;
+  }
+  .header{
+    display: block;
+    padding: 20px;
+    color:white;
+    font-size: 2.5rem;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    top: 1rem; 
+  }
+
+  #sub-head{
+    display: inline;
+    padding: auto;
+    font-size: 1.0rem;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6rem; 
+  }
+  #lyrics{
+    display: block;
+    padding: auto;
+    position: relative;
+    color: white;
+  }
+  #about{
+    display: block;
+    padding: auto;
+    color: white;
+    position: relative;
+  }
   
-/* 
+  #work-container{
+    width: auto;
+  }
+  #work-link{
+    font-size: 1.3rem;
+    width: auto;
+  }
   #projects{
     display: block;
+    color: white;
     position: relative;
     font-size: 2.0rem;
     text-align: center;
   }
-  .img{
-    display: none;
-  }
+  
   .icons{
     position: fixed;
     bottom: 20px;
@@ -92,4 +145,3 @@ phone: 480px--*/
   }
 }
 
-*/

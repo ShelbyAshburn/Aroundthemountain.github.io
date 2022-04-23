@@ -95,16 +95,15 @@ a:hover{
 
 /*----------projects----------*/
 
-#link{
-  color: var(--text-color);
-}
+
 #work-container{
-  display: inline-flex;
+  display: flex ;
   outline: red solid 1px;
-  box-sizing: border-box;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   
-  
-  
+
 }
 
 #work-link{
