@@ -10,7 +10,7 @@ phone: 480px--*/
     width: fit-content;
   }
   
-  .header{
+  h1{
     font-size: 4.5em;
     position:absolute;
     margin-left:auto;
@@ -18,7 +18,7 @@ phone: 480px--*/
     top: 3rem;
   }
 
-  #sub-head{
+  h2{
     font-size: 1.5rem;
     position: absolute;
     margin-left:auto;
@@ -34,34 +34,42 @@ phone: 480px--*/
     width: 100%;
 
   }
-  .header{
+  h1{
     font-size: 3.0em;
     position:absolute;
     top: 3rem; right: 10rem; left: 10rem;
   }
-  #sub-head{
+  h2{
     font-size: 1.75rem;
     position: absolute;
     top: 7rem; right: 10rem; left: 10rem;
   }
+
+  #lyrics{
+    font-size: 2.0rem;
+
 }
 
 @media all and (max-width: 768px){
-  .header{
+  h1{
     display: flex;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     position: absolute;
     margin-left:auto;
     margin-right: auto;
     top: 2rem; 
   }
 
-  #sub-head{
+  h2{
     font-size: 1.0rem;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     top: 6rem; 
+  }
+
+  #lyrics{
+    font-size: 2.0rem;
   }
   #work-container{
     width: auto;
@@ -84,7 +92,7 @@ phone: 480px--*/
   .img{
     display: none;
   }
-  .header{
+  h1{
     display: block;
     padding: 20px;
     color:white;
@@ -95,7 +103,7 @@ phone: 480px--*/
     top: 1rem; 
   }
 
-  #sub-head{
+  h2{
     display: inline;
     padding: auto;
     font-size: 1.0rem;

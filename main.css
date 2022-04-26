@@ -42,7 +42,7 @@ a:hover{
   outline: red solid 1px;
   display: block;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 2%;
   width: 75%;
   padding: 0;
   background-size: cover;
@@ -57,7 +57,7 @@ a:hover{
 
 /*-----arounthemountain-----*/
 
-.header{
+h1{
   outline: red solid 1px;
   display: inline;
   background-color: transparent ;
@@ -75,7 +75,7 @@ a:hover{
 }
 /*-------digital portfolio-------*/
 
-#sub-head{
+h2{
   outline: red solid 1px;
   display: inline;
   position:absolute;
