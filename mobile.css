@@ -93,8 +93,9 @@ phone: 480px--*/
 
 @media all and (max-width: 675px){
   h1{
+    max-width: fit-content;
     font-size: 2.0rem;
-
+    padding: auto;
   }
 }
 
